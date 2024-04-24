@@ -69,4 +69,34 @@
     font-weight: 900;
     font-style: italic;
   }
-  
+
+  // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.exo-<uniquifier> {
+  font-family: "Exo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.bg-color-name-title {
+background-color: #676767;
+}
+header {
+  margin: 0;
+}
+.heading {
+  margin-left: 50px;
+}
+
+.logo {
+  background: url("../images/rosie.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 360px;
+  transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+}
