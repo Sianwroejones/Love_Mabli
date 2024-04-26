@@ -141,6 +141,9 @@ color: #fff;
   margin: 0;
 }
 
+#nav {
+  margin: 0;
+}
 .menucontainer {
   font-size:0;
 }
